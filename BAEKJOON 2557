@@ -1,0 +1,17 @@
+#문제 
+2557:Hello World
+https://www.acmicpc.net/problem/2557
+
+#접근방법
+Hello World!를 출력하기 위해 cout을 사용하고, endl으로 줄바꿈을 할 것 입니다.
+
+#코드 (C++)
+#include <iostream>
+using namespace std;
+int main() {
+    cout << "Hello World!" << endl;
+    return 0;
+}
+
+#정리
+문자를 출력하기 위해 cout을 사용했고 줄바꿈을 위해서 endl을 사용했습니다.
