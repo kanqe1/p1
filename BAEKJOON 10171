@@ -1,5 +1,12 @@
+#문제
+10171:고양이
+https://www.acmicpc.net/problem/10171
 
+#접근방법
+문제에서 주어진 고양이 그림이 여러줄로 있으므로 cout를 여러번 사용하여 출력할 것 입니다.
+문자\는 일반적인 방법으로 출력되지 않기 때문에 두 번 연속으로 사용할 것 입니다.
 
+#코드 (C++)
 #include<iostream>
 int main() {
     using namespace std;
@@ -9,3 +16,8 @@ int main() {
     cout <<" \\(__)|" << "\n";
     return 0;
 }
+
+#정리
+
+
+
