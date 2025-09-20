@@ -1,4 +1,11 @@
+#문제
+1000:A+B
+https://www.acmicpc.net/problem/1000
 
+#접근방법
+A와 B의 값을 입력 받기위해 cin을 사용하고, 입력받은 값을 cout으로 출력할 것 입니다.
+
+#코드 (C++)
 #include<iostream>
 using namespace std;
 int main() {
@@ -7,3 +14,7 @@ int main() {
     cout<<A+B;
     return 0;
 }   
+
+#정리
+입력한 값을 저장하기 위해 int를 사용했습니다.
+A와 B의 값을 얻기 위해 cin을 사용해 A,B에 들어갈 값을 구하고 그 값의 덧셈을 출력하기 위해 cout을 사용했습니다.
